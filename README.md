@@ -15,7 +15,7 @@
 
 본 프로젝트는 `dlib.lib`를 정적 라이브러리로 빌드하여 사용합니다.
 
-1. Dlib 빌드 - Dlib 소스 코드에서 `dliballsource.cpp`를 포함하는 정적 라이브러리 프로젝트를 생성합니다.
+1. Dlib 빌드 - Dlib 소스 코드에서 `dlib/` `all/` `source.cpp`를 포함하는 정적 라이브러리 프로젝트를 생성합니다.
    - 프로젝트 속성에서 `DLIB_PNG_SUPPORT`, `DLIB_JPEG_SUPPORT`, `_CRT_SECURE_NO_WARNINGS` 매크로를 정의합니다.
    - `Release` `x64` 모드로 빌드하여 `dlib.lib`를 생성합니다.
 
