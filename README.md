@@ -9,7 +9,7 @@
 - Language C++
 - IDE Visual Studio 2026
 - Library [Dlib](httpdlib.net), OpenCV
-- OS Windows 1011 (x64)
+- OS Windows 10/11 (x64)
 
 ## 🚀 실행 방법
 
