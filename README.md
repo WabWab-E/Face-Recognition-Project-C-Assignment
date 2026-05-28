@@ -8,7 +8,7 @@
 ## ⚙️ 개발 환경
 - Language C++
 - IDE Visual Studio 2026
-- Library [Dlib](httpdlib.net), OpenCV
+- Library Dlib, OpenCV
 - OS Windows 10/11 (x64)
 
 ## 🚀 실행 방법
@@ -17,7 +17,7 @@
 
 1. Dlib 빌드 - Dlib 소스 코드에서 `dliballsource.cpp`를 포함하는 정적 라이브러리 프로젝트를 생성합니다.
    - 프로젝트 속성에서 `DLIB_PNG_SUPPORT`, `DLIB_JPEG_SUPPORT`, `_CRT_SECURE_NO_WARNINGS` 매크로를 정의합니다.
-   - `Releasex64` 모드로 빌드하여 `dlib.lib`를 생성합니다.
+   - `Release` `x64` 모드로 빌드하여 `dlib.lib`를 생성합니다.
 
 2. 프로젝트 연동
    - 프로젝트 속성  링커  일반  [추가 라이브러리 디렉터리]에 `dlib.lib` 폴더 경로를 추가합니다.
